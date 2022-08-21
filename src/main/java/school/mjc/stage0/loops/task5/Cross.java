@@ -6,7 +6,7 @@ public class Cross {
     
         for(int line = 0;line < sideLength;line++){
             for(int col = 0;col < sideLength;col++){
-                if(line == num / 2 || col == num / 2) System.out.print("s");
+                if(line == num / 2 || col == num / 2) System.out.print("8");
                 else System.out.print(" ");
             
             System.out.println("");
